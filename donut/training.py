@@ -2,6 +2,15 @@ import json
 from pathlib import Path
 import shutil
 
+# %%bash
+# # clone repository
+# git clone https://github.com/zzzDavid/ICDAR-2019-SROIE.git
+# # copy data
+# cp -r ICDAR-2019-SROIE/data ./
+# # clean up
+# rm -rf ICDAR-2019-SROIE
+# rm -rf data/box
+
 # define paths
 base_path = Path("data")
 metadata_path = base_path.joinpath("key")
